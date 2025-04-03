@@ -77,7 +77,7 @@ export default function LandingPage() {
               <div className="flex items-center justify-center">
                 <div className="relative h-[350px] w-[350px] md:h-[450px] md:w-[450px]">
                   <Image
-                    src="/koda.jpg?height=450&width=450"
+                    src="/koda.jpg"
                     alt="Dog with happy owners using PupDuty app"
                     fill
                     className="object-cover rounded-lg"
