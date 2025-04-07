@@ -28,6 +28,9 @@ export default function LandingPage() {
             <Link href="#contact" className="text-sm font-medium text-[#d1d0c5] hover:text-[#e2b714]">
               Contact
             </Link>
+            <Link href="/about" className="text-sm font-medium text-[#d1d0c5] hover:text-[#e2b714]">
+              About
+            </Link>
           </nav>
 
           <div className="flex items-center gap-4">
@@ -77,7 +80,7 @@ export default function LandingPage() {
               <div className="flex items-center justify-center">
                 <div className="relative h-[350px] w-[350px] md:h-[450px] md:w-[450px]">
                   <Image
-                    src="/koda.jpg"
+                    src="/koda.jpg?height=450&width=450"
                     alt="Dog with happy owners using PupDuty app"
                     fill
                     className="object-cover rounded-lg"
